@@ -23,22 +23,20 @@
         <item android:id="@+id/op_menu_id"
             android:title="@string/op" />
         <item android:id="@+id/login_logout_menu_id" />
-        <item android:id="@+id/refresh_menu_id"
+        <item android:id="@+id/inbox_menu_id" android:title="@string/inbox" /><item android:id="@+id/refresh_menu_id"
             android:title="@string/refresh" 
-            android:alphabeticShortcut="r" />
+            android:alphabeticShortcut="r" ></item>
         <item android:id="@+id/reply_thread_menu_id"
-            android:title="@string/reply_thread" />
-        <item android:id="@+id/sort_by_menu_id"
-            android:alphabeticShortcut="s" />
+            android:title="@string/reply_thread" ></item>
+        
         <item android:id="@+id/op_edit_menu_id"
-        	android:title="@string/op_edit" />
+        	android:title="@string/op_edit" ></item>
         <item android:id="@+id/op_delete_menu_id"
-        	android:title="@string/op_delete" />
-        <item android:id="@+id/light_dark_menu_id" />
+        	android:title="@string/op_delete" ></item>
+        <item android:id="@+id/light_dark_menu_id" ></item><item android:id="@+id/sort_by_menu_id" android:alphabeticShortcut="s"></item>
         <item android:id="@+id/open_browser_menu_id"
-        	android:title="@string/open_browser" />
-        <item android:id="@+id/inbox_menu_id"
-            android:title="@string/inbox" />
+        	android:title="@string/open_browser" ></item>
+        
         <!-- 
         <item android:id="@+id/user_profile_menu_id"
             android:title="@string/user_profile" />
